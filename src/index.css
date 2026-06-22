@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-    --color-clifford: #da373d;
+    --color-gunmetal: #3B444B;
+    --color-sky: #2ABAE9;
+    --color-linerar-vivid: ;
 }
