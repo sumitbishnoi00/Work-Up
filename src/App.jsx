@@ -1,16 +1,21 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
+import HomePage from './components/view/HomePage'
 import Footer from './components/common/Footer'
-import CardSwiper from './components/home/CardSwiper'
-import Hero from './components/home/Hero'
 
 function App() {
   
 
   return (
     <>
-     <Hero />
-     <CardSwiper />
-     <Footer />
+     <BrowserRouter>
+          
+          <Routes>
+
+              <Route path='/' element={<HomePage />} />
+          </Routes>
+            <Footer />
+     </BrowserRouter>
     </>
   )
 }
