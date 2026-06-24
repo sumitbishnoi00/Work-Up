@@ -380,11 +380,12 @@ const Icons = ({ icon, className, pathName }) => {
         ),
 
 
-        prev: (
-            <svg className={className} width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.25 1L1 7.25L7.25 13.5" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className=' group-hover:stroke-white duration-500' />
-            </svg>
-        ),
+        // prev: (
+            
+        //     <svg className={className} width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+        //         <path d="M1 1L7.25 7.25L1 13.5" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className=' group-hover:stroke-white duration-500' />
+        //     </svg>
+        // ),
 
         instagram: (
             <svg
@@ -442,12 +443,12 @@ const Icons = ({ icon, className, pathName }) => {
             </svg>
         ),
 
-        next: (
+        // next: (
+        //     <svg className={className} width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+        //         <path d="M7.25 1L1 7.25L7.25 13.5" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className=' group-hover:stroke-white duration-500' />
+        //     </svg>
             
-            <svg className={className} width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1L7.25 7.25L1 13.5" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className=' group-hover:stroke-white duration-500' />
-            </svg>
-        ),
+        // ),
 
         normalTick: (
             <svg className={className} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

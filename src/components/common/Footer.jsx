@@ -62,7 +62,7 @@ const Footer = () => {
       <div className="w-full border-2 border-royal-blue md:mt-12 sm;mt-10 mt-8  sm:mt-16 lg:mt-[86.82px] mb-[15.84px]"></div>
 
       <span className="font-semibold text-[14px] sm:text-[16px] lg:text-[18px] leading-[177.78%] text-baby-blue px-3 inline-block plan">
-        Copyright 2023 JesMor Enterprises, All Rights Reserved.
+        Copyright {currentYear} JesMor Enterprises, All Rights Reserved.
       </span>
     </section>
   );
