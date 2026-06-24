@@ -2,10 +2,10 @@ import React from 'react'
 
 const Heading = ({heading, vari}) => {
     const variants = {
-        pri: "leading-[120%] text-eerie-black",
+        pri: "leading-[120%] text-eerie-black ",
         sec: "leading-[100%] text-white",
         dan: "leading-[100%] text-jet-black",
-        not: "leading-[100%] text-eerie-black"
+        not: "leading-[125%] text-eerie-black"
         
     }
   return (
