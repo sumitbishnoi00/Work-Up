@@ -4,7 +4,7 @@ import { CARD_DATA } from "../../utils/helper";
 
 const Card = () => {
   return (
-    <section className="px-4 lg:pt-34.25 md:pt-30 sm:pt-25 pt-15 lg:pb-27 md:pb-23 sm:pb-18 pb-12 ">
+    <section className="px-4 lg:pt-34.25 md:pt-30 sm:pt-25 pt-15   ">
       <div className="max-w-285 mx-auto text-center">
         <div className="flex flex-col justify-center items-center">
           <div className="w-[143.77px] border-[3px] border-sky rounded-2xl mb-2.5"></div>

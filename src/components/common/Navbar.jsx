@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className="px-4  py-4.25 ">
       <div className="max-w-285 mx-auto flex flex-row justify-between items-center">
         <img
-          className="md:w-[169.98px] md:h-14  w-35"
+          className="md:w-[169.98px] md:h-14 cursor-pointer  w-35"
           src="/assets/LOgo.webp"
           alt="logo"
         />
@@ -30,7 +30,7 @@ const Navbar = () => {
             {NAV_DATA.map((item, index) => (
               <Link to={item.link} key={index} onClick={() => setNav(false)}>
                 <li
-                  className={` md:text-[16px] text-[14px] font-normal leading-[119%] text-gunmetal ${item.link === path ? "active" : ""}`}
+                  className={` md:text-[16px] text-[14px] font-normal leading-[119%] text-gunmetal hover:text-sky transition-all duration-300 ${item.link === path ? "active" : ""}`}
                 >
                   {item.title}
                 </li>

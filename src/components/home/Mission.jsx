@@ -4,7 +4,7 @@ import Para from '../common/Para'
 const Mission = () => {
     return (
         <section className='px-4'>
-            <div className="max-w-285 mx-auto w-full bg-[url('/assets/featursbg.png')] bg-cover flex flex-col justify-between bg-center bg-no-repeat min-h-[789.1px] px-4 sm:px-6 lg:px-0 rounded-xl overflow-hidden pb-10 sm:pb-15 md:pb-20 lg:pb-[89.85px]">
+            <div className="max-w-285 mx-auto w-full bg-[url('/assets/featursbg.png')] bg-cover flex flex-col justify-between bg-center bg-no-repeat min-h-[789.1px] px-4 sm:px-6 lg:px-0 rounded-xl overflow-hidden mb-10 sm:mb-15 md:mb-20 lg:mb-[89.85px]">
 
                 <div className='w-full flex flex-col lg:flex-row justify-center lg:justify-between lg:pl-10 gap-8 lg:gap-0'>
                     <div className='max-w-[420.14px] w-full mt-10'>
