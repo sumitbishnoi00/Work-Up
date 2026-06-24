@@ -3,7 +3,7 @@ import Para from '../common/Para'
 
 const Mission = () => {
     return (
-        <section className='px-4 mt-10 sm:mt-20 md:mt-25 lg:mt-[137.27px]'>
+        <section className='px-4 mt-10 sm:mt-20 md:mt-25 lg:mt-[137.27px] relative '>
             <div className="max-w-285 mx-auto w-full bg-[url('/assets/featursbg.png')] bg-cover flex flex-col justify-between bg-center bg-no-repeat min-h-[789.1px] px-4 sm:px-6 lg:px-0 rounded-xl overflow-hidden">
 
                 <div className='w-full flex flex-col lg:flex-row justify-center lg:justify-between lg:pl-10 gap-8 lg:gap-0'>
@@ -28,7 +28,7 @@ const Mission = () => {
                 </div>
 
             </div>
-            
+            <img className='w-22.75 h-[190.91px] absolute right-0 -bottom-25' src="/assets/metionright.webp" alt="" />
         </section>
     )
 }
