@@ -20,9 +20,9 @@ const CommonInput = ({
       />
 
       <button
-        className={`min-w-[69.76px] h-9 rounded-[35px] cursor-pointer bg-[linear-gradient(104.91deg,#2ABAE9_0%,#1B77CC_100%)] flex items-center justify-center ${buttonClass}`}
+        className={`min-w-[69.76px] h-9 rounded-[35px] hover:shadow-2xs hover:shadow-black transition-all duration-300 cursor-pointer bg-[linear-gradient(104.91deg,#2ABAE9_0%,#1B77CC_100%)] flex items-center justify-center ${buttonClass}`}
       >
-        <Icons icon={"arrowRight"} />
+        <Icons icon={"arrowRight"}  />
       </button>
     </div>
   );

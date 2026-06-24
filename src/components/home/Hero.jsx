@@ -4,7 +4,7 @@ import CommonInput from "../common/CommonInput";
 
 const Hero = () => {
   return (
-    <section className="pb-12.5 bg-[linear-gradient(180deg,rgba(44,185,233,0.3)_0%,rgba(98,104,250,0.3)_23.05%,rgba(255,255,255,0.3)_71.54%,rgba(255,255,255,0.3)_103.55%)]">
+    <section className=" relative bg-[linear-gradient(180deg,rgba(44,185,233,0.3)_0%,rgba(98,104,250,0.3)_23.05%,rgba(255,255,255,0.3)_71.54%,rgba(255,255,255,0.3)_103.55%)]">
       <Navbar />
       <img
         className=" absolute top-30 h-20.25 pointer-events-none right-0 "
@@ -16,8 +16,18 @@ const Hero = () => {
         src="/assets/hero-right.webp"
         alt=""
       />
+      <img
+        className=" absolute w-[428.72px] h-[559.28px] -bottom-47 left-0 "
+        src="public/assets/hbottomleft.webp"
+        alt=""
+      />
+      <img
+        className="absolute md:w-[51.50px] w-9 md:h-[81.43px] h-15 top-[237.9px] left-0 "
+        src="/assets/heroboxleft.webp"
+        alt=""
+      />
 
-      <div className="max-w-285 relative mx-auto mt-[33.94px] px-4">
+      <div className="max-w-285  mx-auto mt-[33.94px] px-4">
         <div className="max-w-206.5 mx-auto text-center flex justify-center flex-col items-center">
           <div className="bg-white max-w-67.75 rounded-3xl items-center  py-1.25 px-3.25">
             <p className=" md:text-[16px] text-[14px]  font-normal leading-[120%] para bg-[linear-gradient(90.79deg,#994FFF_0.27%,#4AB6FE_98.57%)] bg-clip-text text-transparent">
@@ -35,11 +45,6 @@ const Hero = () => {
         <div>
           <img className="" src="/assets/Component.webp" alt="" />
         </div>
-        <img
-          className=" absolute w-[428.72px] lg:h-[559.28px] md:120 sm:h-100 h-70 md:-bottom-50 sm:-bottom-40 -bottom-20 left-0  "
-          src="public/assets/hbottomleft.webp"
-          alt=""
-        />
       </div>
     </section>
   );
