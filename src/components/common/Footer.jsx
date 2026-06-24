@@ -39,7 +39,7 @@ const Footer = () => {
           <div className="flex md:flex-row flex-col gap-8 sm:gap-12 lg:gap-16">
             {FOOTER_LINKS.map((section, index) => (
               <div key={index} className="gap-2.5 flex flex-col items-start">
-                <h3 className="font-semibold lg:text-[20px] md:text-[18px] text-[16px] leading-[100%] text-white">
+                <h3 className="font-semibold lg:text-[20px] md:text-[18px] text-[16px] leading-[100%]  text-white plan">
                   {section.title}
                 </h3>
 
@@ -61,8 +61,8 @@ const Footer = () => {
 
       <div className="w-full border-2 border-royal-blue md:mt-12 sm;mt-10 mt-8  sm:mt-16 lg:mt-[86.82px] mb-[15.84px]"></div>
 
-      <span className="font-semibold text-[14px] sm:text-[16px] lg:text-[18px] leading-[177.78%] text-baby-blue px-3 inline-block">
-        Copyright {currentYear} JesMor Enterprises, All Rights Reserved.
+      <span className="font-semibold text-[14px] sm:text-[16px] lg:text-[18px] leading-[177.78%] text-baby-blue px-3 inline-block plan">
+        Copyright 2023 JesMor Enterprises, All Rights Reserved.
       </span>
     </section>
   );

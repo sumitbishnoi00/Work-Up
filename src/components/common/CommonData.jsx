@@ -9,7 +9,7 @@ const CommonData = ({heading, para, image, reverse = false, accentColor, accentP
         </div>
 
         <div className={`w-full max-w-[473.71px] text-center lg:text-left`}>
-            <h3 className='font-semibold text-[24px] leading-[100%] text-dark-gray'>{heading}</h3>
+            <h3 className='font-semibold text-[24px] leading-[100%] text-dark-gray para'>{heading}</h3>
             <p className='font-normal text-[16px] leading-[154%] text-dim-gray mt-3'>{para}</p>
         </div>
 
