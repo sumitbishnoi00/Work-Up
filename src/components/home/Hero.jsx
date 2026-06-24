@@ -18,7 +18,7 @@ const Hero = () => {
       />
       <img
         className=" absolute w-[428.72px] h-[559.28px] -bottom-47 left-0 "
-        src="public/assets/hbottomleft.webp"
+        src="/assets/hbottomleft.webp"
         alt=""
       />
       <img

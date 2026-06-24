@@ -9,7 +9,7 @@ const FeatureCard = ({ icon, title, desc, iconClass = "", cardClass = ""}) => {
             <Icons icon={icon} className={iconClass} />
         </div>
 
-        <h3 className={`font-medium text-[20px] leading-[120%] text-eerie-black mb-4`}>{title}</h3>
+        <h3 className={`font-medium text-[20px] leading-[120%] para text-eerie-black mb-4`}>{title}</h3>
 
         <Para para={desc} vari="pri" />
     </div>
