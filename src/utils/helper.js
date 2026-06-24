@@ -28,7 +28,7 @@ export const FEATURES_DATA = [
         id: 4,
         icon: "transactionAccounts",
         iconClass: "w-[40px] h-[39px]",
-        cardClass: "pt-[38.5px] pb-[61.5px] px-[35.91px]",
+        cardClass: "pt-[38.5px] pb-[61.5px] px-[30.91px]",
         title: "Transaction Accounts",
         desc: "Unlimited payments and transfers within Austraila."
     },
@@ -60,7 +60,7 @@ export const FEATURES_DATA = [
         id: 4,
         icon: "transactionAccounts",
         iconClass: "w-[40px] h-[39px]",
-        cardClass: "pt-[38.5px] pb-[61.5px] px-[35.91px]",
+        cardClass: "pt-[38.5px] pb-[61.5px] px-[30.91px]",
         title: "Transaction Accounts",
         desc: "Unlimited payments and transfers within Austraila."
     },

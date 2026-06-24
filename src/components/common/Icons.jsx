@@ -355,7 +355,7 @@ const Icons = ({ icon, className, pathName }) => {
 
     facebook: (
       <svg
-      className={className}
+        className={className}
         width="12"
         height="12"
         viewBox="0 0 12 12"
@@ -364,7 +364,7 @@ const Icons = ({ icon, className, pathName }) => {
       >
         <g clip-path="url(#clip0_273_2400)">
           <path
-          className={pathName}
+            className={pathName}
             d="M7.99875 1.9925H9.09425V0.0845C8.90525 0.0585 8.25525 0 7.49825 0C5.91875 0 4.83675 0.9935 4.83675 2.8195V4.5H3.09375V6.633H4.83675V12H6.97375V6.6335H8.64625L8.91175 4.5005H6.97325V3.031C6.97375 2.4145 7.13975 1.9925 7.99875 1.9925Z"
             fill="#1A202C"
           />
@@ -374,6 +374,26 @@ const Icons = ({ icon, className, pathName }) => {
             <rect width="12" height="12" fill="white" />
           </clipPath>
         </defs>
+      </svg>
+    ),
+
+    prev: (
+      <svg
+        className={className}
+        width="9"
+        height="15"
+        viewBox="0 0 9 15"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.25 1L1 7.25L7.25 13.5"
+          stroke="black"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className=" group-hover:stroke-white duration-500"
+        />
       </svg>
     ),
 
@@ -420,7 +440,6 @@ const Icons = ({ icon, className, pathName }) => {
       >
         <g clip-path="url(#clip0_273_2412)">
           <path
-            className={pathName}
             d="M13 2.46919C12.5166 2.68125 12.0014 2.82181 11.4644 2.89006C12.0169 2.56019 12.4386 2.04181 12.6368 1.417C12.1217 1.72412 11.5529 1.94106 10.9468 2.06213C10.4577 1.54131 9.76056 1.21875 9.00006 1.21875C7.52456 1.21875 6.33669 2.41638 6.33669 3.88456C6.33669 4.09581 6.35456 4.29894 6.39844 4.49231C4.18275 4.38425 2.22219 3.32231 0.905125 1.70463C0.675187 2.10356 0.540313 2.56019 0.540313 3.05175C0.540313 3.97475 1.01562 4.79294 1.72413 5.26662C1.29594 5.2585 0.875875 5.13419 0.52 4.93837C0.52 4.9465 0.52 4.95706 0.52 4.96762C0.52 6.26275 1.44381 7.3385 2.65525 7.58631C2.43831 7.64563 2.20187 7.67406 1.9565 7.67406C1.78587 7.67406 1.61362 7.66431 1.45194 7.62856C1.79725 8.684 2.77713 9.45994 3.94225 9.48512C3.0355 10.1944 1.88419 10.6218 0.637812 10.6218C0.41925 10.6218 0.209625 10.6121 0 10.5852C1.18056 11.3466 2.57969 11.7812 4.0885 11.7812C8.99275 11.7812 11.674 7.71875 11.674 4.19737C11.674 4.07956 11.6699 3.96581 11.6643 3.85287C12.1932 3.4775 12.6376 3.00869 13 2.46919Z"
             fill="#1A202C"
           />
@@ -428,6 +447,348 @@ const Icons = ({ icon, className, pathName }) => {
         <defs>
           <clipPath id="clip0_273_2412">
             <rect width="13" height="13" fill="white" />
+          </clipPath>
+        </defs>
+      </svg>
+    ),
+
+    next: (
+      <svg
+        className={className}
+        width="9"
+        height="15"
+        viewBox="0 0 9 15"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          className={pathName}
+          d="M1 1L7.25 7.25L1 13.5"
+          stroke="black"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className=" group-hover:stroke-white duration-500"
+        />
+      </svg>
+    ),
+
+    normalTick: (
+      <svg
+        className={className}
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.9961 2C6.48209 2 1.99609 6.486 1.99609 12C1.99609 17.514 6.48209 22 11.9961 22C17.5101 22 21.9961 17.514 21.9961 12C21.9961 6.486 17.5101 2 11.9961 2ZM9.99709 16.413L6.28409 12.708L7.69609 11.292L9.99509 13.587L15.2891 8.293L16.7031 9.707L9.99709 16.413Z"
+          fill="url(#paint0_linear_273_2213)"
+        />
+        <defs>
+          <linearGradient
+            id="paint0_linear_273_2213"
+            x1="1.99609"
+            y1="5.95603"
+            x2="21.9229"
+            y2="6.22964"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#994FFF" />
+            <stop offset="1" stop-color="#4AB6FE" />
+          </linearGradient>
+        </defs>
+      </svg>
+    ),
+
+    hoverTick: (
+      <svg
+        className={className}
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.9961 2.41309C6.48209 2.41309 1.99609 6.89909 1.99609 12.4131C1.99609 17.9271 6.48209 22.4131 11.9961 22.4131C17.5101 22.4131 21.9961 17.9271 21.9961 12.4131C21.9961 6.89909 17.5101 2.41309 11.9961 2.41309ZM9.99709 16.8261L6.28409 13.1211L7.69609 11.7051L9.99509 14.0001L15.2891 8.70609L16.7031 10.1201L9.99709 16.8261Z"
+          fill="#FAFAFA"
+        />
+      </svg>
+    ),
+
+    facebook: (
+      <svg
+        className={className}
+        width="62"
+        height="62"
+        viewBox="0 0 62 62"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g filter="url(#filter0_d_273_2398)">
+          <circle cx="31" cy="27" r="17" fill="#FAFAFA" />
+        </g>
+        <g clip-path="url(#clip0_273_2398)">
+          <path
+            d="M32.9987 22.9925H34.0942V21.0845C33.9052 21.0585 33.2552 21 32.4982 21C30.9187 21 29.8367 21.9935 29.8367 23.8195V25.5H28.0938V27.633H29.8367V33H31.9737V27.6335H33.6462L33.9117 25.5005H31.9732V24.031C31.9737 23.4145 32.1397 22.9925 32.9987 22.9925Z"
+            fill="#1A202C"
+          />
+        </g>
+        <defs>
+          <filter
+            id="filter0_d_273_2398"
+            x="0"
+            y="0"
+            width="62"
+            height="62"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix
+              in="SourceAlpha"
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha"
+            />
+            <feOffset dy="4" />
+            <feGaussianBlur stdDeviation="7" />
+            <feColorMatrix
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"
+            />
+            <feBlend
+              mode="normal"
+              in2="BackgroundImageFix"
+              result="effect1_dropShadow_273_2398"
+            />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="effect1_dropShadow_273_2398"
+              result="shape"
+            />
+          </filter>
+          <clipPath id="clip0_273_2398">
+            <rect
+              width="12"
+              height="12"
+              fill="white"
+              transform="translate(25 21)"
+            />
+          </clipPath>
+        </defs>
+      </svg>
+    ),
+
+    instagram: (
+      <svg
+        className={className}
+        width="62"
+        height="62"
+        viewBox="0 0 62 62"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g filter="url(#filter0_d_273_2402)">
+          <circle cx="31" cy="27" r="17" fill="#FAFAFA" />
+        </g>
+        <g clip-path="url(#clip0_273_2402)">
+          <path
+            d="M34.481 20H28.519C26.5786 20 25 21.5786 25 23.519V29.4811C25 31.4214 26.5786 33 28.519 33H34.4811C36.4214 33 38 31.4214 38 29.4811V23.519C38 21.5786 36.4214 20 34.481 20V20ZM37.2379 29.4811C37.2379 31.0012 36.0012 32.2379 34.481 32.2379H28.519C26.9988 32.2379 25.7621 31.0012 25.7621 29.4811V23.519C25.7621 21.9988 26.9988 20.7621 28.519 20.7621H34.4811C36.0012 20.7621 37.2379 21.9988 37.2379 23.519V29.4811Z"
+            fill="#1A202C"
+          />
+          <path
+            d="M31.4999 22.9453C29.5399 22.9453 27.9453 24.5399 27.9453 26.4999C27.9453 28.4599 29.5399 30.0545 31.4999 30.0545C33.4599 30.0545 35.0545 28.4599 35.0545 26.4999C35.0545 24.5399 33.4599 22.9453 31.4999 22.9453ZM31.4999 29.2924C29.9602 29.2924 28.7074 28.0397 28.7074 26.4999C28.7074 24.9602 29.9602 23.7074 31.4999 23.7074C33.0397 23.7074 34.2924 24.9602 34.2924 26.4999C34.2924 28.0397 33.0397 29.2924 31.4999 29.2924Z"
+            fill="#1A202C"
+          />
+          <path
+            d="M35.1402 21.6831C34.561 21.6831 34.0898 22.1543 34.0898 22.7334C34.0898 23.3127 34.561 23.7839 35.1402 23.7839C35.7194 23.7839 36.1906 23.3127 36.1906 22.7334C36.1906 22.1542 35.7194 21.6831 35.1402 21.6831ZM35.1402 23.0217C34.9813 23.0217 34.852 22.8923 34.852 22.7334C34.852 22.5745 34.9813 22.4452 35.1402 22.4452C35.2992 22.4452 35.4285 22.5745 35.4285 22.7334C35.4285 22.8923 35.2992 23.0217 35.1402 23.0217Z"
+            fill="#1A202C"
+          />
+        </g>
+        <defs>
+          <filter
+            id="filter0_d_273_2402"
+            x="0"
+            y="0"
+            width="62"
+            height="62"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix
+              in="SourceAlpha"
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha"
+            />
+            <feOffset dy="4" />
+            <feGaussianBlur stdDeviation="7" />
+            <feColorMatrix
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"
+            />
+            <feBlend
+              mode="normal"
+              in2="BackgroundImageFix"
+              result="effect1_dropShadow_273_2402"
+            />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="effect1_dropShadow_273_2402"
+              result="shape"
+            />
+          </filter>
+          <clipPath id="clip0_273_2402">
+            <rect
+              width="13"
+              height="13"
+              fill="white"
+              transform="translate(25 20)"
+            />
+          </clipPath>
+        </defs>
+      </svg>
+    ),
+
+    twiter: (
+      <svg
+        className={className}
+        width="62"
+        height="62"
+        viewBox="0 0 62 62"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g filter="url(#filter0_d_273_2409)">
+          <circle cx="31" cy="27" r="17" fill="#FAFAFA" />
+        </g>
+        <g clip-path="url(#clip0_273_2409)">
+          <path
+            d="M37 23.4692C36.5166 23.6812 36.0014 23.8218 35.4644 23.8901C36.0169 23.5602 36.4386 23.0418 36.6368 22.417C36.1217 22.7241 35.5529 22.9411 34.9468 23.0621C34.4577 22.5413 33.7606 22.2188 33.0001 22.2188C31.5246 22.2188 30.3367 23.4164 30.3367 24.8846C30.3367 25.0958 30.3546 25.2989 30.3984 25.4923C28.1828 25.3842 26.2222 24.3223 24.9051 22.7046C24.6752 23.1036 24.5403 23.5602 24.5403 24.0518C24.5403 24.9748 25.0156 25.7929 25.7241 26.2666C25.2959 26.2585 24.8759 26.1342 24.52 25.9384C24.52 25.9465 24.52 25.9571 24.52 25.9676C24.52 27.2627 25.4438 28.3385 26.6552 28.5863C26.4383 28.6456 26.2019 28.6741 25.9565 28.6741C25.7859 28.6741 25.6136 28.6643 25.4519 28.6286C25.7972 29.684 26.7771 30.4599 27.9423 30.4851C27.0355 31.1944 25.8842 31.6218 24.6378 31.6218C24.4193 31.6218 24.2096 31.6121 24 31.5852C25.1806 32.3466 26.5797 32.7812 28.0885 32.7812C32.9928 32.7812 35.674 28.7188 35.674 25.1974C35.674 25.0796 35.6699 24.9658 35.6643 24.8529C36.1932 24.4775 36.6376 24.0087 37 23.4692Z"
+            fill="#1A202C"
+          />
+        </g>
+        <defs>
+          <filter
+            id="filter0_d_273_2409"
+            x="0"
+            y="0"
+            width="62"
+            height="62"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix
+              in="SourceAlpha"
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha"
+            />
+            <feOffset dy="4" />
+            <feGaussianBlur stdDeviation="7" />
+            <feColorMatrix
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"
+            />
+            <feBlend
+              mode="normal"
+              in2="BackgroundImageFix"
+              result="effect1_dropShadow_273_2409"
+            />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="effect1_dropShadow_273_2409"
+              result="shape"
+            />
+          </filter>
+          <clipPath id="clip0_273_2409">
+            <rect
+              width="13"
+              height="13"
+              fill="white"
+              transform="translate(24 21)"
+            />
+          </clipPath>
+        </defs>
+      </svg>
+    ),
+
+    inLink: (
+      <svg
+        className={className}
+        width="62"
+        height="62"
+        viewBox="0 0 62 62"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g filter="url(#filter0_d_273_2416)">
+          <circle cx="31" cy="27" r="17" fill="#FAFAFA" />
+        </g>
+        <g clip-path="url(#clip0_273_2416)">
+          <path
+            d="M35.9971 32V31.9996H35.9998V27.9653C35.9998 25.9917 35.575 24.4714 33.2677 24.4714C32.1585 24.4714 31.4142 25.0801 31.1103 25.6571H31.0783V24.6557H28.8906V31.9996H31.1685V28.3631C31.1685 27.4057 31.35 26.4799 32.5358 26.4799C33.704 26.4799 33.7215 27.5725 33.7215 28.4246V32H35.9971Z"
+            fill="#1A202C"
+          />
+          <path
+            d="M25.1797 24.6562H27.4604V32.0001H25.1797V24.6562Z"
+            fill="#1A202C"
+          />
+          <path
+            d="M26.3209 21C25.5917 21 25 21.5917 25 22.3209C25 23.0501 25.5917 23.6542 26.3209 23.6542C27.0501 23.6542 27.6418 23.0501 27.6418 22.3209C27.6414 21.5917 27.0497 21 26.3209 21V21Z"
+            fill="#1A202C"
+          />
+        </g>
+        <defs>
+          <filter
+            id="filter0_d_273_2416"
+            x="0"
+            y="0"
+            width="62"
+            height="62"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix
+              in="SourceAlpha"
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha"
+            />
+            <feOffset dy="4" />
+            <feGaussianBlur stdDeviation="7" />
+            <feColorMatrix
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"
+            />
+            <feBlend
+              mode="normal"
+              in2="BackgroundImageFix"
+              result="effect1_dropShadow_273_2416"
+            />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="effect1_dropShadow_273_2416"
+              result="shape"
+            />
+          </filter>
+          <clipPath id="clip0_273_2416">
+            <rect
+              width="11"
+              height="11"
+              fill="white"
+              transform="translate(25 21)"
+            />
           </clipPath>
         </defs>
       </svg>

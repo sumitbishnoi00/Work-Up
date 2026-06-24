@@ -4,6 +4,7 @@ import { FOOTER_LINKS } from "../../utils/helper";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <section className="bg-[linear-gradient(223.31deg,#FBC524_-34.99%,#E939D9_21.89%,#2ABAE9_74.4%)] pt-14 sm:pt-20 lg:pt-[106.83px] text-center pb-5 sm:pb-[22.1px]">
       <div className="max-w-360 w-full mx-auto flex flex-col sm:flex-row justify-center gap-10 lg:gap-84.75 px-3">
