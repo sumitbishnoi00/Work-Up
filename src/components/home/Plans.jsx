@@ -9,7 +9,7 @@ const Plans = () => {
 
         <img src="/assets/plan-right.webp" className='w-[65.04px] h-[119.27px] absolute top-21 right-0' alt="plan-right" />
         <img src="/assets/Datas-bg.webp" className='w-[51.51px] h-[81.44px] absolute top-30 right-9.5' alt="Datas-bg" />
-        <img src="/assets/plan-left.webp" className='w-[46px] h-[81.44px] absolute left-0 top-96' alt="plan-left" />
+        <img src="/assets/plan-left.webp" className='w-11.5 h-[81.44px] absolute left-0 top-96' alt="plan-left" />
 
         <div className='max-w-282.75 w-full mx-auto flex flex-col items-center justify-center'>
             <div className='max-w-25 md:max-w-[143.77px] w-full border-2 md:border-4 border-blue rounded-full mb-2.5'></div>
